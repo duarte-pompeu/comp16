@@ -1,6 +1,5 @@
-// $Id: add_node.h,v 1.3 2014/02/26 18:53:32 david Exp $ -*- c++ -*-
-#ifndef __CDK9_AST_EXPRESSION_ADD_H__
-#define __CDK9_AST_EXPRESSION_ADD_H__
+#ifndef __AST_EXPRESSION_AND_H__
+#define __AST_EXPRESSION_AND_H__
 
 #include <cdk/ast/binary_expression_node.h>
 
