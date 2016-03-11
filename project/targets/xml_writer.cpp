@@ -179,3 +179,8 @@ void zu::xml_writer::do_if_else_node(zu::if_else_node * const node, int lvl) {
   closeTag("else", lvl + 2);
   closeTag(node, lvl);
 }
+
+// POMPEU: new 4 proj
+void zu::xml_writer::do_and_node(zu::and_node * const node, int lvl) {
+  processBinaryExpression(node, lvl);
+}

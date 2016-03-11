@@ -261,3 +261,11 @@ void zu::postfix_writer::do_if_else_node(zu::if_else_node * const node, int lvl)
   node->elseblock()->accept(this, lvl + 2);
   _pf.LABEL(mklbl(lbl1 = lbl2));
 }
+
+// POMPEU: new 4 proj
+void zu::postfix_writer::do_and_node(zu::and_node * const node, int lvl) {
+  //~ CHECK_TYPES(_compiler, _symtab, node);
+  //~ node->left()->accept(this, lvl);
+  //~ node->right()->accept(this, lvl);
+  //~ _pf.ADD();
+}

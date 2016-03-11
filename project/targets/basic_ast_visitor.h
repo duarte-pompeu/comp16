@@ -79,6 +79,9 @@ public:
 public:
   virtual void do_lvalue_node(zu::lvalue_node * const node, int lvl) = 0;
   virtual void do_rvalue_node(zu::rvalue_node * const node, int lvl) = 0;
+  
+  // POMPEU: new 4 project
+  virtual void do_and_node(zu::and_node * const node, int lvl) = 0;
 
 public:
   virtual void do_program_node(zu::program_node * const node, int lvl) = 0;

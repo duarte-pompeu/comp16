@@ -156,3 +156,8 @@ void zu::type_checker::do_if_node(zu::if_node * const node, int lvl) {
 void zu::type_checker::do_if_else_node(zu::if_else_node * const node, int lvl) {
   node->condition()->accept(this, lvl + 4);
 }
+
+// POMPEU: new 4 proj
+void zu::type_checker::do_and_node(zu::and_node * const node, int lvl) {
+  //~ processBinaryExpression(node, lvl);
+}
