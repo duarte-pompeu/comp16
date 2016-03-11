@@ -6,4 +6,5 @@
 /zu_parser.y/1.1/Fri Feb 19 19:29:48 2016//
 /zu_scanner.h/1.1/Fri Feb 19 19:29:48 2016//
 /zu_scanner.l/1.1/Fri Feb 19 19:29:48 2016//
-D
+D/ast////
+D/targets////
