@@ -1,2 +1,42 @@
 # comp16
-Projecto compiladores de 2016
+
+Projecto de compiladores, 2º semestre 15/16
+
+## TODO
+
+### Nodes
+
+- or
+- not
+- float
+- literal?
+- for
+- ponteiros (int?)
+
+
+- "espaços/tabs/etc"???
+- comentarios???
+- () ??? 
+
+### Instruções
+
+- print
+- scan
+- concatenação strings
+- declaração pública/privada?
+- exportação/importação
+- função com retorno/sem retorno
+- interrupção
+- break
+- continue
+- indexação
+- identidade/simétrico (simétrico dado pelo neg_node, penso eu)
+- reserva de memória
+
+### keywords
+
+## DONE
+
+### Nodes
+
+- and
