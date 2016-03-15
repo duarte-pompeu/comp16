@@ -95,6 +95,9 @@ public:
   virtual void do_while_node(zu::while_node * const node, int lvl) = 0;
   virtual void do_if_node(zu::if_node * const node, int lvl) = 0;
   virtual void do_if_else_node(zu::if_else_node * const node, int lvl) = 0;
+  
+  // new 4 proj
+  virtual void do_for_node(zu::for_node * const node, int lvl) = 0;
 
 };
 

@@ -83,6 +83,9 @@ namespace zu {
     void do_while_node(zu::while_node * const node, int lvl);
     void do_if_node(zu::if_node * const node, int lvl);
     void do_if_else_node(zu::if_else_node * const node, int lvl);
+    
+    // new 4 proj
+    void do_for_node(zu::for_node * const node, int lvl);
 
   };
 

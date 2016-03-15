@@ -167,3 +167,7 @@ void zu::type_checker::do_or_node(zu::or_node * const node, int lvl) {
 	// FIXME: copy from add
   //~ processBinaryExpression(node, lvl);
 }
+
+void zu::type_checker::do_for_node(zu::for_node * const node, int lvl) {
+  node->condition()->accept(this, lvl + 4);
+}

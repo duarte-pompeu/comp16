@@ -190,3 +190,15 @@ void zu::xml_writer::do_or_node(zu::or_node * const node, int lvl) {
 	// FIXME: copy from and
   //~ processBinaryExpression(node, lvl);
 }
+
+void zu::xml_writer::do_for_node(zu::for_node * const node, int lvl) {
+	// FIXME: copy from while
+  //~ openTag(node, lvl);
+  //~ openTag("condition", lvl + 2);
+  //~ node->condition()->accept(this, lvl + 4);
+  //~ closeTag("condition", lvl + 2);
+  //~ openTag("block", lvl + 2);
+  //~ node->block()->accept(this, lvl + 4);
+  //~ closeTag("block", lvl + 2);
+  //~ closeTag(node, lvl);
+}

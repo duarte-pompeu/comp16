@@ -2,6 +2,10 @@
 
 Projecto de compiladores, 2º semestre 15/16
 
+## Duvidas:
+
+- o que se faz no scanner e parser?
+
 ## TODO
 
 ### Nodes
