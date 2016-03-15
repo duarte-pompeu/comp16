@@ -13,8 +13,10 @@ Projecto de compiladores, 2º semestre 15/16
 - not
 - float
 - literal?
-- for
-- ponteiros (int?)
+- ponteiros (int?)??
+- atribuição (assignment do simple)
+- function?
+- instrução de retorno
 
 
 - "espaços/tabs/etc"???
@@ -42,13 +44,14 @@ Projecto de compiladores, 2º semestre 15/16
 ### Nodes
 
 - and
+- or
+- for
 
 ## INCLUDED IN INITIAL CHECKOUT
 
 ### Nodes
 
 - add
-- or
 
 ### Instructions
 
