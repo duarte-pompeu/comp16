@@ -6,7 +6,6 @@ Projecto de compiladores, 2º semestre 15/16
 
 ### Nodes
 
-- or
 - not
 - float
 - literal?
@@ -20,8 +19,7 @@ Projecto de compiladores, 2º semestre 15/16
 
 ### Instruções
 
-- print
-- scan
+	
 - concatenação strings
 - declaração pública/privada?
 - exportação/importação
@@ -40,3 +38,17 @@ Projecto de compiladores, 2º semestre 15/16
 ### Nodes
 
 - and
+
+## INCLUDED IN INITIAL CHECKOUT
+
+### Nodes
+
+- add
+- or
+
+### Instructions
+
+- print
+- read
+
+### Keywords

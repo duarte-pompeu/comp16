@@ -182,5 +182,11 @@ void zu::xml_writer::do_if_else_node(zu::if_else_node * const node, int lvl) {
 
 // POMPEU: new 4 proj
 void zu::xml_writer::do_and_node(zu::and_node * const node, int lvl) {
-  processBinaryExpression(node, lvl);
+	// FIXME: copy from and
+  //~ processBinaryExpression(node, lvl);
+}
+
+void zu::xml_writer::do_or_node(zu::or_node * const node, int lvl) {
+	// FIXME: copy from and
+  //~ processBinaryExpression(node, lvl);
 }

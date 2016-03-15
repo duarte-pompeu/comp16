@@ -68,6 +68,7 @@ namespace zu {
     
     // new 4 proj
     void do_and_node(zu::and_node * const node, int lvl);
+    void do_or_node(zu::or_node * const node, int lvl);
 
   public:
     void do_program_node(zu::program_node * const node, int lvl) {

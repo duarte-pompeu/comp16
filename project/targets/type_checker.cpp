@@ -159,5 +159,11 @@ void zu::type_checker::do_if_else_node(zu::if_else_node * const node, int lvl) {
 
 // POMPEU: new 4 proj
 void zu::type_checker::do_and_node(zu::and_node * const node, int lvl) {
+	// FIXME: copy from add
+  //~ processBinaryExpression(node, lvl);
+}
+
+void zu::type_checker::do_or_node(zu::or_node * const node, int lvl) {
+	// FIXME: copy from add
   //~ processBinaryExpression(node, lvl);
 }
