@@ -2,60 +2,80 @@
 
 Projecto de compiladores, 2º semestre 15/16
 
+# Entrega 0
+
 ## Duvidas:
 
 - o que se faz no scanner e parser?
 
-## TODO
+## 1
 
-### Nodes
+## 2
 
-- not
+## 3
+
+## 4
+
+## 5 - Funções
+
+### TODO
+
+- Declaração
+- Invocação
+- Corpo
+
+### DONE
+
+## 6 - Instruções
+
+### TODO
+
+- bloco
+- break
+- continue
+- return
+
+### DONE
+
+- for
+- if-else
+- print
+
+
+## 7 - Expressões
+
+### TODO
+
+- primária: () []
+- unária: +-?
+- nao lógico
+
+### DONE
+
+- multiplicativa: */%
+- aditiva: +-
+- comparativa: < > <= >=
+- igualdade: = !=
+- e lógico
+- atribuição
+
+## 8
+
+## 9
+
+## Not nodes
+
+- declaração pública/privada
 - float
-- literal?
-- ponteiros (int?)??
-- atribuição (assignment do simple)
-- function?
-- instrução de retorno
-
-
 - "espaços/tabs/etc"???
 - comentarios???
 - () ??? 
 
-### Instruções
+## Outros
 
-	
+- literal?
+- ponteiros (int?)??
+- atribuição (assignment do simple)
 - concatenação strings
-- declaração pública/privada?
 - exportação/importação
-- função com retorno/sem retorno
-- interrupção
-- break
-- continue
-- indexação
-- identidade/simétrico (simétrico dado pelo neg_node, penso eu)
 - reserva de memória
-
-### keywords
-
-## DONE
-
-### Nodes
-
-- and
-- or
-- for
-
-## INCLUDED IN INITIAL CHECKOUT
-
-### Nodes
-
-- add
-
-### Instructions
-
-- print
-- read
-
-### Keywords
