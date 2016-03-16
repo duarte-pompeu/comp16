@@ -41,6 +41,7 @@ class for_node;
 class or_node; 
 class break_node; 
 class continue_node; 
+class return_node; 
 
 } // namespace zu
 
@@ -98,6 +99,7 @@ class continue_node;
 #include "ast/or_node.h"
 #include "ast/break_node.h"
 #include "ast/continue_node.h"
+#include "ast/return_node.h"
 
 
 //---------------------------------------------------------------------------

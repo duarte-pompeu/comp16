@@ -308,3 +308,16 @@ void zu::postfix_writer::do_continue_node(zu::continue_node * const node, int lv
   // node->block()->accept(this, lvl + 2);
   // _pf.LABEL(mklbl(lbl1));
 }
+
+void zu::postfix_writer::do_return_node(zu::return_node * const node, int lvl) {
+ //FIXME: copy from if
+  //int lbl1, lbl2;
+  //node->condition()->accept(this, lvl);
+  //_pf.JZ(mklbl(lbl1 = ++_lbl));
+  //node->thenblock()->accept(this, lvl + 2);
+  //_pf.JMP(mklbl(lbl2 = ++_lbl));
+  //_pf.LABEL(mklbl(lbl1));
+  //node->elseblock()->accept(this, lvl + 2);
+  //_pf.LABEL(mklbl(lbl1 = lbl2));
+}
+

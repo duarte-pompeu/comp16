@@ -100,6 +100,7 @@ public:
   virtual void do_for_node(zu::for_node * const node, int lvl) = 0;
   virtual void do_break_node(zu::break_node * const node, int lvl) = 0;
   virtual void do_continue_node(zu::continue_node * const node, int lvl) = 0;
+  virtual void do_return_node(zu::return_node * const node, int lvl) = 0;
 
 };
 
