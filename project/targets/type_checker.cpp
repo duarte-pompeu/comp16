@@ -169,5 +169,9 @@ void zu::type_checker::do_or_node(zu::or_node * const node, int lvl) {
 }
 
 void zu::type_checker::do_for_node(zu::for_node * const node, int lvl) {
-  node->condition()->accept(this, lvl + 4);
+  // FIXME:node->condition()->accept(this, lvl + 4);
+}
+
+void zu::type_checker::do_break_node(zu::break_node * const node, int lvl) {
+  // FIXME:   node->condition()->accept(this, lvl + 4);
 }

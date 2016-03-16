@@ -31,12 +31,12 @@ Projecto de compiladores, 2º semestre 15/16
 ### TODO
 
 - bloco
-- break
 - continue
 - return
 
 ### DONE
 
+- break
 - for
 - if-else
 - print

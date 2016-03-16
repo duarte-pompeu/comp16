@@ -290,3 +290,12 @@ void zu::postfix_writer::do_for_node(zu::for_node * const node, int lvl) {
   //~ _pf.JMP(mklbl(lbl1));
   //~ _pf.LABEL(mklbl(lbl2));
 }
+void zu::postfix_writer::do_break_node(zu::break_node * const node, int lvl) {
+    //FIXME: copy if
+  
+  // int lbl1;
+  // node->condition()->accept(this, lvl);
+  // _pf.JZ(mklbl(lbl1 = ++_lbl));
+  // node->block()->accept(this, lvl + 2);
+  // _pf.LABEL(mklbl(lbl1));
+}
