@@ -40,6 +40,7 @@ class while_node;
 class for_node; 
 class or_node; 
 class break_node; 
+class continue_node; 
 
 } // namespace zu
 
@@ -96,6 +97,7 @@ class break_node;
 #include "ast/for_node.h"
 #include "ast/or_node.h"
 #include "ast/break_node.h"
+#include "ast/continue_node.h"
 
 
 //---------------------------------------------------------------------------

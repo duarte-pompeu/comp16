@@ -87,6 +87,7 @@ namespace zu {
     // new 4 proj
     void do_for_node(zu::for_node * const node, int lvl);
     void do_break_node(zu::break_node * const node, int lvl);
+    void do_continue_node(zu::continue_node * const node, int lvl);
 
   };
 

@@ -214,3 +214,14 @@ void zu::xml_writer::do_break_node(zu::break_node * const node, int lvl) {
    // closeTag("then", lvl + 2);
    // closeTag(node, lvl);
 }
+void zu::xml_writer::do_continue_node(zu::continue_node * const node, int lvl) {
+      //FIXME: copy from if
+  // openTag(node, lvl);
+   // openTag("condition", lvl + 2);
+   // node->condition()->accept(this, lvl + 4);
+   // closeTag("condition", lvl + 2);
+   // openTag("then", lvl + 2);
+   // node->block()->accept(this, lvl + 4);
+   // closeTag("then", lvl + 2);
+   // closeTag(node, lvl);
+}
